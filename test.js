@@ -1,11 +1,11 @@
 const timerResolution = require('./build/Release/timer_resolution');
 
-console.log("Setting Windows Timer Resolution to 1ms...");
-/* const success = timerResolution.setTimerResolution();
+console.log("Setting Windows Timer Resolution to 1ms..."); 
+const success = timerResolution.setTimerResolution();
 if (!success) {
     console.error("Failed to set timer resolution.");
     process.exit(1);
-} */
+}
 console.log("Timer resolution set to 1ms.\n");
 
 // Function to test setTimeout accuracy
